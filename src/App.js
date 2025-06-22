@@ -1,13 +1,14 @@
 import './App.css';
-import ViewItem from './Components/ViewItem';
-import ItemPage from './Components/ItemPage';
-
+import router from './router'
+import {RouterProvider} from 'react-router';
+import { CartProvider } from './Components/CartContext.js';
 function App() {
   return (
+    <CartProvider>
     <div className="App">
-      <ItemPage />
-      <ViewItem /> 
+     <RouterProvider router={router}/>
     </div>
+    </CartProvider>
   );
 }
 
