@@ -33,11 +33,3 @@ This is a 2-page web application built for the internship assignment provided by
 - A button allows clearing the cart
 
 ---
-
-## 🧪 How to Run the App Locally
-
-1. Clone the repository:
-
-```bash
-git clone https://github.com/your-username/item-management-app.git
-cd item-management-app
